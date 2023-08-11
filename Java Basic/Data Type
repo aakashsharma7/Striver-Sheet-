@@ -1,0 +1,15 @@
+public class Solution {
+    public static String compareIfElse(int a, int b) {
+        // Write your code here
+        //Scanner sc = new Scanner(System.in);
+        //int a = sc.nextInt();
+        //int b = sc.nextInt();
+
+        if(a>b){
+            return"greater";
+        }else if(a<b){
+            return"smaller";
+        }
+            return"equal";
+    }
+}
