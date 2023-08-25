@@ -1,0 +1,17 @@
+public class Solution {
+    public static void funk(int c,int arr[],int x) {
+        // Write Your Code Here
+        if(c==x){  
+          return;     
+    }
+       arr[c]=c+1;     
+       c++;     
+       funk(c,arr,x);            }
+    public static int[] printNos(int x) {     
+    int c=0;   
+    int []arr=new int[x];      
+    funk(c,arr,x);   
+
+     return arr;         
+    }
+}
