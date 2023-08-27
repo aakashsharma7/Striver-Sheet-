@@ -1,0 +1,20 @@
+import java.util.List;
+public class Solution {
+    public static void name(int num, String st, int n){
+     if(num==n)
+    {
+        return;
+    }
+        else{
+         System.out.print(st+" ");
+        num++;
+        name(num,st,n);
+       }
+    }
+    public static void printNtimes(int n){
+        String st="Coding Ninjas";
+        int num=1;
+        name(num,st,n);
+        System.out.print(st);
+    }
+}
